@@ -1,0 +1,16 @@
+/*section{
+    column-count: 4;
+
+    column-gap: 10px;
+    -moz-column-gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+article {
+    break-inside: avoid;
+    page-break-inside: avoid;         
+}*/
+
+h3{
+    font-size:26px;
+}

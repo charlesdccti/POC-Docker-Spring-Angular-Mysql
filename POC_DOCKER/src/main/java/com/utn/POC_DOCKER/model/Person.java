@@ -1,4 +1,5 @@
-package com.utn.POC_DOCKER.model;
+package com.utn.poc_docker.model;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,17 +14,18 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
-@Table
+@Table(name = "persons")
 public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer id_person;
 
     @Column(name = "first_name")
     @NotNull
@@ -33,5 +35,15 @@ public class Person {
     @NotNull
     private String lastName;
 
+    @NotNull
+    private String email;
 
+    @NotNull
+    private String location;
+
+    @NotNull
+    private String gender;
+
+    @NotNull
+    private Integer age;
 }

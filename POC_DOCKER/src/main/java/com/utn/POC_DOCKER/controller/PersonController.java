@@ -1,7 +1,7 @@
-package com.utn.POC_DOCKER.controller;
+package com.utn.poc_docker.controller;
 
-import com.utn.POC_DOCKER.model.Person;
-import com.utn.POC_DOCKER.repository.IPersonRepository;
+import com.utn.poc_docker.model.Person;
+import com.utn.poc_docker.repository.IPersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,22 +13,22 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
-public class HelloController {
+@RequestMapping("/api/persons")
+public class PersonController {
 
     @Autowired
     IPersonRepository personRepository;
 
     @CrossOrigin
-    @GetMapping("/person")
-    public List<Person> getAllPersons(){
+    @GetMapping("")
+    public List<Person> getAll(){
 
         return personRepository.findAll();
     }
 
     @CrossOrigin
-    @PostMapping("/person")
-    public Person addPerson(@RequestBody Person person){
+    @PostMapping("")
+    public Person add(@RequestBody Person person){
 
         return personRepository.save(person);
     }

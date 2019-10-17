@@ -1,0 +1,23 @@
+header{
+ height: 56px;
+}
+
+.navbar-brand img
+{
+    position:absolute; 
+    margin-top:-30px;
+    margin-left:-20px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: gray;
+}
+
+.nav-link:active{
+    color:white;
+}
+
