@@ -10,5 +10,5 @@
 ## Ejecutar Servicios de Docker Compose
 * docker-compose up
 
-## Finalizar Servicios de Docker compose
+## Finalizar Servicios de Docker Compose
 * docker-compose down
