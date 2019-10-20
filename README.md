@@ -19,5 +19,5 @@
 ### * Entrar al contenedor de mysql para poder utilizar comandos Mysql
 * docker exec -it mysql-db mysql -p
 ### * Utilizar la base de datos del volumen
-* use dockerAngularSpringDatabase
+* use dockerAngularSpringDatabase;
 ### * Insertar Personas (Copiar de Persons.sql)
