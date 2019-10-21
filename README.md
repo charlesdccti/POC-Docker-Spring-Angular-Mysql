@@ -14,8 +14,6 @@
 * docker-compose down
 
 ## Cargar Volumen Docker
-### * Crear y ejecutar contenedor asignandole el volumen creado en el docker compose
-* docker run -d -p 33060:3306 --name mysql-db  -e MYSQL_ROOT_PASSWORD=password --mount src=pocdocker_dockerAngularSpringDatabaseData,dst=/var/lib/mysql mysql
 ### * Entrar al contenedor de mysql para poder utilizar comandos Mysql
 * (Primero iniciar servicio de Mysql)
 * docker exec -it mysql-db mysql -p
