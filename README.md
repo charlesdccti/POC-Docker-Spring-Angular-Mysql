@@ -12,7 +12,6 @@
 
 ## Cargar Volumen Docker
 ### * Entrar al contenedor de mysql para poder utilizar comandos Mysql
-* (Primero iniciar servicio de Mysql)
 * docker exec -it mysql-db mysql -p
 ### * Utilizar la base de datos del volumen
 * use dockerAngularSpringDatabase;
