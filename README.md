@@ -10,9 +10,6 @@
 ## Ejecutar Servicios de Docker Compose
 * docker-compose up
 
-## Finalizar Servicios de Docker Compose
-* docker-compose down
-
 ## Cargar Volumen Docker
 ### * Entrar al contenedor de mysql para poder utilizar comandos Mysql
 * (Primero iniciar servicio de Mysql)
@@ -20,3 +17,6 @@
 ### * Utilizar la base de datos del volumen
 * use dockerAngularSpringDatabase;
 ### * Insertar Personas (Copiar de Persons.sql)
+
+## Finalizar Servicios de Docker Compose
+* docker-compose down
