@@ -1,4 +1,4 @@
-package com.utn.poc_docker;
+package com.utn.POC_DOCKER;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,8 @@
-package com.utn.poc_docker.repository;
+package com.utn.POC_DOCKER.repository;
 
-import com.utn.poc_docker.model.Person;
+
+import com.utn.POC_DOCKER.model.Person;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.utn.poc_docker.model;
+package com.utn.POC_DOCKER.model;
 
 
 import lombok.AllArgsConstructor;
